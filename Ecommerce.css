@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #001422;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+main {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  padding: 16px;
+}
+.circle {
+  border-radius: 100%;
+  position: absolute;
+}
+.circle-1 {
+  width: 120px;
+  height: 120px;
+  background-image: radial-gradient(
+    69.62% 69.62% at 50% 50%,
+    #ea8bfa 0%,
+    #7526f5 100%
+  );
+  top: -50px;
+  left: -50px;
+}
+.circle-2 {
+  width: 360px;
+  height: 360px;
+  background-image: radial-gradient(
+    63.76% 63.76% at 50% 50%,
+    #ff00c7 0%,
+    #bd95ff 0.01%,
+    #a661ff 32.29%,
+    #6100ff 98.59%
+  );
+  top: -125px;
+  left: 260px;
+}
+.circle-3 {
+  width: 220px;
+  height: 220px;
+  background-image: radial-gradient(
+    67.47% 67.47% at 50% 50%,
+    #fed0ff 0%,
+    #7f00ff 100%
+  );
+  bottom: -100px;
+  left: -130px;
+}
+.card-container {
+  position: relative;
+}
+.card {
+  max-width: 400px;
+  background-image: linear-gradient(
+    148deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0.2)
+  );
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 13px;
+}
+.card-content {
+  border: 0.74px solid rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.card-content .imgjava {
+  width: 100%;
+  vertical-align: middle;
+}
+.text-content {
+  padding: 0px 18px;
+}
+span {
+  display: flex;
+  justify-content: space-between;
+}
+.tag {
+  border-radius: 5px;
+  background-color: rgba(241, 198, 68, 0.24);
+  padding: 2px 4px;
+  color: #ffd147;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 500;
+}
+.rating-star {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18px;
+}
+.value {
+  color: #f1c644;
+  font-size: 13px;
+  margin-inline: 8px;
+}
+.count {
+  font-size: 14px;
+  color: #dbdbdb;
+}
+.card-button {
+  background-color: transparent;
+  border: inherit;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-block: 30px;
+  font-family: inherit;
+  font-size: 18px;
+  gap: 8px;
+  opacity: 0.8;
+}
+.card-button:hover{
+opacity: 1;
+}
+ 
